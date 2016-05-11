@@ -1,0 +1,212 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0; }
+
+body, button, input, select, textarea {
+    font: 12px/1.5tahoma, arial, \5b8b\4f53; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%; }
+
+address, cite, dfn, em, var {
+    font-style: normal; }
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace; }
+
+small {
+    font-size: 12px; }
+
+ul, ol {
+    list-style: none; }
+
+a {
+    text-decoration: none; }
+
+a:hover {
+    text-decoration: underline; }
+
+sup {
+    vertical-align: text-top; }
+
+sub {
+    vertical-align: text-bottom; }
+
+legend {
+    color: #000; }
+
+fieldset, img {
+    border: 0; }
+
+button, input, select, textarea {
+    font-size: 100%; }
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+button {
+    cursor: pointer; }
+
+h1, h2, h3, h4, h5, h6, p, ul, li, button, input, textarea {
+    font-family: microsoft Yahei; }
+
+button {
+    border: none; }
+
+/*# sourceMappingURL=init.css.map */
+
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #000;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+
+.header {
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.header ul {
+    float: right;
+    margin-right: 250px;
+}
+.header ul li{
+    list-style: none;
+    float: left;
+    margin: 0 18px;
+    line-height: 57px;
+}
+#login-li {
+    margin-left: 30px;
+}
+.header-icon1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 250px;
+    margin-right: 15px;
+}
+.header-icon2 {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate(-50%, -50%);
+    margin-right: 265px;
+}
+.header-p {
+    margin-left: 280px;
+    float: left;
+    line-height: 57px;
+    font-size: 25px;
+}
+.checked {
+    color: red;
+    font-weight: bolder;
+}
+
+
+.d1 {
+    background: url("../img/img1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 100px 200px;
+    color: #fff;
+    position: relative;
+}
+.d1 h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+.d1 p {
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 5px 0;
+}
+.d1 button {
+    letter-spacing: 5px;
+    font-size: 28px;
+    font-weight: lighter;
+    background-color: #e74f4d;
+    padding: 13px 120px;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+}
+.d1-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 150px;
+}
+.d2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.d2 ul {
+    overflow: hidden;
+    list-style: none;
+    padding: 50px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.d2 ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: #303030;
+    margin: 0 auto;
+}
+.d2 ul p {
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+}
+.d3 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.d3-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d3-content img {
+    display: block;
+    margin: 0 auto;
+}
+.d3-content p {
+    padding: 20px 0;
+    letter-spacing: 3px;
+    color: #8b8b8b;
+    font-size: 45px;
+}
+.d4 {
+    position: relative;
+    width: 100%;
+    height: 280px;
+}
