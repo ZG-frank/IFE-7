@@ -285,8 +285,8 @@ select::-ms-expand { display: none; }
 }
 .d5-div {
     display: inline-block;
-    width: 20%;
-    padding: 60px 0;
+    width: 15%;
+    padding: 60px 10px;
 }
 .d5 h4 {
     color: #323333;
@@ -314,11 +314,12 @@ select::-ms-expand { display: none; }
     text-align: center;
     display: table-cell;
     width: 9999px;
+    height: 570px;
 }
 .d6 h4 {
     display: inline-block;
     color: #323333;
-    padding: 160px 0 30px 0;
+    padding: 150px 0 25px 0;
     font-size: 25px;
 }
 #d6-num {
@@ -326,9 +327,233 @@ select::-ms-expand { display: none; }
 }
 .d6 p {
     color: #c1c0c0;
-    padding: 10px;
-
+    padding: 8px 0;
 }
-.d6-p {
 
+.d6 a {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 8px 20px;
+    background: none;
+    color: #e74f4d;
+    border: 1px solid;
+}
+.ban {
+    position: absolute;
+    text-align: center;
+    bottom: 105px;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.ban span {
+    opacity: 0.8;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    height: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 0 5px;
+}
+.ban span:first-child {
+    background-color: #555555;
+}
+
+.d7 {
+    position: relative;
+    width: 100%;
+    height: 580px;
+}
+.d7-1 {
+    width: 33.3%;
+    height: 580px;
+    float: left;
+    text-align: center;
+    position: relative;
+    background-color: #e74f4d;
+}
+.d7-2 {
+    width: 33.3%;
+    height: 580px;
+    float: left;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.d7-3 {
+    width: 33.3%;
+    height: 580px;
+    float: left;
+    background: url("../img/pic6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 580px;
+    position: relative;
+}
+.d7-content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d7-1 h3 {
+    padding: 5px 0;
+    font-size: 20px;
+    color: #fff;
+}
+.d7-1 hr{
+    width: 20px;
+    margin: 15px auto 0;
+    border-color: #fff;
+}
+.d7-1 a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 45px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.d7-2 h3 {
+    padding: 5px 0;
+    font-size: 20px;
+    color: #e85d56;
+}
+.d7-2 hr{
+    width: 20px;
+    margin: 15px auto 0;
+    border-color: #e85d56;
+}
+.d7-2 a {
+     display: inline-block;
+     margin: 20px 0;
+     padding: 10px 45px;
+     background: none;
+     color: #e85d56;
+     border: 1px solid #e85d56;
+ }
+.d8 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+.d8-1 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.d8-1 h3 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #323333;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.d8-1 p {
+    color: #d8d7d7;
+    padding: 2px 0;
+}
+.d8-2 {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 519px;
+}
+.d8-2-1 {
+    position: absolute;
+    width: 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d8-2-1 h5 {
+    padding: 23px 0;
+    color: #595757;
+}
+.d8-2-1 p {
+    color: #b5b5b6;
+    padding: 2px 0;
+    font-size: 14px;
+}
+.d8-2-1 span {
+    float: right;
+    display: inline-block;
+    margin-left: 6px;
+}
+.d8-2-1 select {
+    float: right;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-style: none;
+}
+
+.d8-2-2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.d8-2-3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.d8-3 {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 519px;
+}
+.d8-3 form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 410px;
+    height: 320px;
+}
+.d8-3 form input[type="text"] {
+    width: 400px;
+    height: 40px;
+    margin: 10px 1px;
+    border: none;
+    padding: 4px 6px;
+}
+.d8-3 form textarea {
+    width: 400px;
+    height: 200px;
+    margin: 10px 1px;
+    border: none;
+    padding: 4px 6px;
+}
+.d8-4 {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    height: 519px;
+}
+.d8-4 form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 410px;
+    height: 320px;
+}
+.d8-4 form input[type="text"] {
+    width: 400px;
+    height: 40px;
+    margin: 10px 1px;
+    border: none;
+    padding: 4px 6px;
+}
+.d8-4 form input[type="submit"] {
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: -60px;
+    margin-top: 190px;
 }
